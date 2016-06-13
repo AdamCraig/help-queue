@@ -1,0 +1,9 @@
+{{#if isQuestionAnswered}}
+  <p>Your ticket has been closed.</p>
+{{else}}
+  <p>Thanks, {{question.name}}. Help is on the way.</p>
+
+  <p>Leave this page open while you continue working on the problem.</p>
+
+  <button class="orange-button" {{action 'questionAnswered'}}>Nevermind, we got it.</button>
+{{/if}}
