@@ -4,9 +4,10 @@ export default Ember.Component.extend({
   isQuestionAnswered: false,
 
   actions: {
-    questionAnswered: function() {
-      this.set('isQuestionAnswered', true);
-    }
+    deleteQuestion1(question) {
+    this.set('isQuestionAnswered', true);
+    this.sendAction('deleteQuestion2', question);
+    },
   }
-  
+
 });
