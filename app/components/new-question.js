@@ -11,6 +11,7 @@ export default Ember.Component.extend({
         name: this.get('name'),
         location: this.get('location'),
         content: this.get('content'),
+        time: moment().unix(),
       };
       this.sendAction('saveQuestion1', params);
     }

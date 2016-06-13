@@ -1,5 +1,10 @@
 body {
-  background-color: lightgrey;
+  background-color: #ecf0f1;
+}
+
+footer {
+  margin-top: 40%;
+  text-align: center;
 }
 
 .orange-bar {
@@ -35,6 +40,11 @@ body {
 .main-text {
   text-align: center;
   font-size: 16pt;
+}
+
+.row {
+  background-color: white;
+  border-bottom: solid lightgrey 1px;
 }
 
 /*.form-control {
