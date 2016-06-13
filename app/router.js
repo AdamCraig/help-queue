@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('fifteen-minutes');
   this.route('question-form');
   this.route('question', {path: '/question/:question_id'});
+  this.route('queue');
 });
 
 export default Router;
