@@ -1,0 +1,15 @@
+<form>
+  <div class="form-group">
+    {{input class="form-control" value=name id="name" placeholder="Please enter your name"}}
+  </div>
+
+  <div class="form-group">
+    {{input class="form-control" value=location id="location" placeholder="Please enter your location"}}
+  </div>
+
+  <div class="form-group">
+    {{textarea class="form-control" value=content id="content" placeholder="Give a brief description of the issue you are having"}}
+  </div>
+
+  <button class="orange-button-right" {{action 'saveQuestion1'}}>Help!</button>
+</form>

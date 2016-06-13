@@ -4,6 +4,12 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'help-queue',
     environment: environment,
+    firebase: {
+      apiKey: "AIzaSyCJnOvt7mU-31S0DZEDqE1mHPTbQKypP-w",
+      authDomain: "help-queue-1d8b1.firebaseapp.com",
+      databaseURL: "https://help-queue-1d8b1.firebaseio.com",
+      storageBucket: "help-queue-1d8b1.appspot.com",
+    },
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

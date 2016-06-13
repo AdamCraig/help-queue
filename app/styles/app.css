@@ -1,0 +1,44 @@
+body {
+  background-color: lightgrey;
+}
+
+.orange-bar {
+  font-family: 'Nixie One', sans-serif;
+  background-color: #f05a26;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.orange-button {
+  background-color: #f05a26;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border: solid #f05a26 2px;
+  font-size: 12pt;
+  padding: 7px;
+}
+
+.orange-button-right {
+  background-color: #f05a26;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border: solid #f05a26 2px;
+  font-size: 12pt;
+  padding: 7px;
+  float: right;
+}
+
+.main-text {
+  text-align: center;
+  font-size: 16pt;
+}
+
+/*.form-control {
+  margin-top: 15px;
+  display: block;
+  width: 700px;
+}*/

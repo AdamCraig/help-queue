@@ -6,6 +6,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('ask-pair');
+  this.route('fifteen-minutes');
+  this.route('question-form');
+  this.route('ticket-sent');
 });
 
 export default Router;
