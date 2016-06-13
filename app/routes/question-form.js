@@ -5,7 +5,8 @@ export default Ember.Route.extend({
     saveQuestion2(params) {
       var newQuestion = this.store.createRecord('question', params);
       newQuestion.save();
-      this.transitionTo('ticket-sent');
+      this.transitionTo('ticket-sent', newQuestion);
     },
   }
+
 });

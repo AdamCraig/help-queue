@@ -9,7 +9,7 @@ Router.map(function() {
   this.route('ask-pair');
   this.route('fifteen-minutes');
   this.route('question-form');
-  this.route('ticket-sent');
+  this.route('ticket-sent', {path: '/question/:question_id'});
 });
 
 export default Router;
